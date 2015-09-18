@@ -1,0 +1,63 @@
+/*
+James Collerton - 46114
+Turtle Graphics.
+
+This is the basic version of my parser/ interpreter.
+
+Some design decisions I made:
+
+	You can't walk backwards.
+
+	The - symbol means subtract, not negative.
+
+	The polish stack size, the number of embedded loops you can have and the
+	max number of tokens you can have in a file are not dynamically allocated
+	through linked lists. I asked Neill and he said that it didn't matter which
+	Way round you did it so I did it this way.
+
+	You can't use a variable uninitialised.
+
+	You can't walk outside of the window! I did this as instead of using the draw
+	line function I used some maths and coloured the grid in pixel by pixel. Ultimately
+	this allows for smoother animation. The maths is explained in the code. If you
+	put in a design that goes outside of the area then it errors, warns you and quits. 
+
+*/
+
+#include "turtle_functions.h"
+
+// 						MAIN
+
+
+// Mallocs the main structures used throughout the program. Then checks to make sure that all
+// of the necessary space has been allocated. Moves on to make sure that the command line arguments
+// make sense, then initialises the necessary components of the program. Finally opens the file, parses
+// it and prints it.
+
+int main(int argc, char *argv[])
+{
+	program *prog = (program *) malloc(sizeof(program));
+	player *user = (player *) malloc(sizeof(player));
+	SDL_Simplewin sw;
+
+	check_mallocs(prog, user);
+
+	check_command_line_arguments(argc);
+
+	initialise_program(prog);
+
+	initialise_player(user);
+
+	open_program_file(argv[1], prog);
+
+	parse_text_and_interpret(prog, user);
+
+	Neill_SDL_Init(&sw);
+
+	print_SDL_array(user, &sw);
+
+	free(prog);
+	free(user);
+
+	return(0);
+}

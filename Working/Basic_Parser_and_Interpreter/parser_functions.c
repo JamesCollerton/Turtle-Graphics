@@ -1,0 +1,563 @@
+// All of these functions tend to be focussed on parsing the .txt file.
+
+#include "turtle_functions.h"
+
+// Used to make sure that the mallocs at the very start have been correctly assigned.
+
+void check_mallocs(program *prog, player *user)
+{
+	if(prog == NULL || user == NULL){
+		clear_screen();
+		fprintf(stderr, "\nThe number of commands in the file has exceeded the recognised amount.\n\n");
+		exit(1);
+	}
+}
+
+// Checks that the right number of command line arguments have been entered.
+
+void check_command_line_arguments(int argc)
+{
+	// Two is too few as they have not entered a file name.
+	if(argc < 2){
+		clear_screen();
+		fprintf(stderr, "\nNot enough arguments were entered at the command line.\n\n");
+		exit(1);
+	}
+	// More than two is too many as they have entered a file name and another argument.
+	if(argc > 2){
+		clear_screen();
+		fprintf(stderr, "\nToo many arguments were entered at the command line.\n\n");
+		exit(1);
+	}
+
+}
+
+// Used to clear the screen, if it has not been successful errors out and prints a message.
+
+void clear_screen(void)
+{
+	int clear_screen_checker;
+
+	clear_screen_checker = system("clear");
+
+	if(clear_screen_checker != CLEAR_SUCCESS){
+		fprintf(stderr, "\nThere was an error clearing the screen.\n\n");
+		exit(1);
+	}
+
+}
+
+// This initialises the program structure. The current word for the program is set to zero,
+// we set the number of lines registered to have been scanned in to zero and finally fill the 
+// array that will be used to store the program instructions with the end of string character.
+
+void initialise_program(program *prog)
+{
+	int i;
+
+	prog -> current_word = 0;
+	prog -> num_lines_in_file = 0;
+
+	for(i = 0; i < MAX_NUM_LINES; ++i){
+		prog -> prog_line[i][0] = '\0';
+	}
+}
+
+// This initialises the player structure that is used throughout the program. The board is
+// set to uncoloured, the looping array values are all set to zero and each of the values
+// in the variable array are set to an error value. The idea of the error value is that if this
+// comes up during later calculations we know something has gone wrong and a value has been
+// used without being initialised.
+
+//We then put the player in the middle of the board and initialise some other components to zero.
+
+void initialise_player(player *user)
+{
+	int i, j;
+
+	for(i = 0; i < WHEIGHT; ++i){
+		for(j = 0; j < WWIDTH; ++j){
+			user -> player_board[i][j] = uncoloured;
+		}
+	}
+
+	for(i = 0; i < START_ITERATION_END; ++i){
+		for(j = 0; j < MAX_EMBEDDED_LOOPS; ++j){
+			user -> looping_array[i][j] = 0;
+		}
+	}
+
+	for(i = 0; i < NUM_LETTERS_ALPHABET; ++i){
+		user -> variable_values[i] = ERROR_VALUE;
+	}
+
+	user -> row = WHEIGHT / 2;
+	user -> col = WWIDTH / 2;
+	user -> angle = 0;
+	user -> player_board[WHEIGHT / 2][WWIDTH / 2] = coloured;
+	user -> current_constant = 0;
+	user -> current_variable = 0;
+	user -> current_operator = 0;
+	user -> set_variable = 0;
+	user -> current_steps_taken = 0;
+	user -> looping_index = 0;
+	user -> variable_checker = off;
+	user -> constant_checker = off;
+	user -> operation_indicator = off;
+	user -> loop_indicator = off;
+
+}
+
+// This opens the file specified and reads in the values. We have defined the maximum number of lines that we expect to
+// see in a program and if we scan in more than this then we error out. (I asked Neill about this and he said that seemed
+// reasonable and you didn't need to put in a linked list).
+
+// Finally it sets the number of lines in the file to be used later and closes the file.
+
+void open_program_file(char *filename, program *prog)
+{
+	FILE *prog_file = NULL;
+	int i = 0;
+
+	if( (prog_file = fopen(filename, "r")) == NULL){
+		clear_screen();
+		fprintf(stderr, "\nThere was an error reading in the file.\n\n");
+		exit(1);
+	}
+	else{
+
+		while( fscanf(prog_file, "%s", prog -> prog_line[i]) == SCAN_SUCCESS ){
+			i++;
+			if(i > MAX_NUM_LINES){
+				clear_screen();
+				fprintf(stderr, "\nThe number of commands in the file has exceeded the recognised amount.\n\n");
+				exit(1);
+			}
+		}
+	}
+
+	prog -> num_lines_in_file = i;
+
+	fclose(prog_file);
+}
+
+// This starts the bit of the program that is actually involved in parsing the text and interpreting it. First of all
+// we look for the opening bracket. Then we pass into the instrctlist part as per the grammar.
+
+void parse_text_and_interpret(program *prog, player *user)
+{
+	if( ! (same_string(prog -> prog_line[prog -> current_word], "{") ) ){
+		clear_screen();
+		ERROR("\nNo starting brace.\n\n");
+	}
+
+	// Incrementing where we are in the program and moving on one word.
+	++prog -> current_word;
+
+	instrctlist(prog, user);
+
+}
+
+// This is just a wrapper to make strcmp a little more user friendly.
+
+success_unsuccess same_string(char *string_one, char *string_two)
+{
+	if( strcmp(string_one, string_two) == 0 ){
+		return(successful);
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// This directly interprets the grammar. In instrctlist we can either have an end bracket or pass to instruction
+// or instrctlist.
+
+void instrctlist(program *prog, player *user)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], "}")){
+
+		++prog -> current_word;
+
+		return;
+	}
+
+	instruction(prog, user);
+
+	instrctlist(prog, user);
+}
+
+// Here we have the instruction part of the grammar. It looks through all of the different possible commands FD, LT, RT, DO, SET
+// etc. and then parses from there. If none of these are registered then there is an error in the grammar and this is noticed
+// and printed.
+
+void instruction(program *prog, player *user)
+{
+	if( fd(prog, user) ){
+		fd_interpret(user);
+		return;
+	}
+	else if( lt_rt(prog, user, lt_dir, "LT") ){
+		return;
+	}
+	else if( lt_rt(prog, user, rt_dir, "RT") ){
+		return;
+	}
+	else if( do_check(prog, user) ){
+		return;
+	}
+	else if( set_check(prog, user) ){
+		return;
+	}
+	else{
+		clear_screen();
+		ERROR("\nEITHER: Expected an instruction or end bracket OR error with polish expression.\n\n");
+	}
+}
+
+// This is the FD function. It returns successful if we have found FD in our program at this point. It then
+// increments where we are in the program and looks for varnum, as according to the grammar. If we don't find
+// FD then we return to the above if/else statements to look for other commands.
+
+success_unsuccess fd(program *prog, player *user)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], "FD") ){
+
+		++prog -> current_word;
+
+		varnum(prog, user);
+
+		return(successful);
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// This is a function for LT and RT detection. As they are so similar it made sense to put their functions together
+// and to then pass an argument indicating whether we were examining for lt or rt. If LT or RT is detected then we
+// increment where we are in the program and look for a varnum as described in the grammar. After this we interpret
+// the LT or RT command and adjust angles within the user structure.
+
+success_unsuccess lt_rt(program *prog, player *user, rt_lt direction, char *command)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], command) ){
+
+		++prog -> current_word;
+
+		varnum(prog, user);
+		lt_rt_interpret(user, direction);
+
+		return(successful);
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// This is used to check if DO has been entered within our program. If it has then we increment where we are in
+// the program and go into the do_loop function which is described below.
+
+success_unsuccess do_check(program *prog, player *user)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], "DO") ){
+
+		++prog -> current_word;
+
+		do_loop(prog, user);
+
+		return(successful);
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// Here we follow the exact form of the grammar. First we look for a variable, then we parse for the
+// word FROM. Then we look for a variable or a number and the word TO. Next we look for a variable or number
+// and look for the opening brace of the DO loop and pass inside the loop. Inside the loop we have an
+// interpreting function and a do while loop. 
+
+// The way I have dealt with the loops is using the prog -> current_word part of my program. Every time we 
+// finish an iteration of a loop we point this back to the start of the loop, resetting where we were in the program. 
+// So if we start a loop at word three, then if we get to the end of the loop, we will repoint the prog -> current_word
+// back to word three. Some other functions later on are used to break this behaviour.
+  
+void do_loop(program *prog, player *user)
+{
+
+	var(prog, user);
+	loop_subject_var_interpret(user);
+
+	if( same_string(prog -> prog_line[prog -> current_word], "FROM") ){
+
+		++prog -> current_word;
+
+		varnum(prog, user);
+		loop_start_var_interpreter(user);
+
+		if( same_string(prog -> prog_line[prog -> current_word], "TO") ){
+
+			++prog -> current_word;
+
+			varnum(prog, user);
+			loop_end_var_interpreter(user);
+
+				if( same_string( prog -> prog_line[prog -> current_word], "{" ) ){
+
+					++prog -> current_word;
+
+					loop_interior_interpreter(user, prog);
+
+					do{
+
+						prog -> current_word = user -> looping_array[ start_word ][ user -> looping_index ];
+						instrctlist(prog, user);
+						end_loop(user);
+
+					}while(!check_loop_finish(user));					
+
+				}
+				else{
+
+					clear_screen();
+					ERROR("\nExpected an opening bracket.\n\n");
+
+				}
+		
+		}
+		else{
+
+			clear_screen();
+			ERROR("\nExpected a TO statement.\n\n");
+
+		}
+
+	}
+	else{
+
+		clear_screen();
+		ERROR("\nExpected a FROM statement.\n\n");
+	
+	}
+}
+
+// This is used to check if the SET command has been registered. If we detect that SET has been entered then
+// we increment where we are in the program and go into the set loop function. Otherwise we return unsuccessful to
+// the instruction function.
+
+success_unsuccess set_check(program *prog, player *user)
+{
+
+	if( same_string(prog -> prog_line[prog -> current_word], "SET") ){
+
+		++prog -> current_word;
+
+		set_loop(prog, user);
+
+		return(successful);
+
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// When we get to a SET function we create a polish stack to use and then goes to var, as the grammar dictates.
+// It then interprets this in a seperate function. Next it looks for the := symbol. If it finds it it increments
+// where we are in the program and goes into the polish function.
+
+void set_loop(program *prog, player *user)
+{
+	polish_stack pol_stack;
+
+	initialise_pol_stack(&pol_stack);
+
+	var(prog, user);
+
+	interpret_set_variable(user);
+
+	if( same_string(prog -> prog_line[prog -> current_word], ":=") ){
+
+		++prog -> current_word;
+
+		polish(prog, user, &pol_stack);
+
+	} 
+	else{
+
+		clear_screen();
+		ERROR("\nExpected to see :=.\n\n");
+
+	}
+}
+
+// This is used to set all the members of the polish stack to zero, and also to set where we are
+// in the stack to zero.
+
+void initialise_pol_stack(polish_stack *pol_stack)
+{
+	int i;
+
+	for(i = 0; i < MAX_STACK_SIZE; ++i){
+		pol_stack -> numbers_stack[i] = 0;
+	}
+
+	pol_stack -> current_index = 0;
+
+}
+
+// This just implements polish parsing. It looks to see if we have got a ; signal to register
+// the end of a polish expression, if so then it assigns the variable a value after checking
+// it is valid and increments where we are in the program.
+
+// Otherwise it looks for operations being entered into the program and interprets them, then
+// incrementing where we are by one.
+
+// If none of the above apply (; or OP) then we must be looking for a varnum and so we are passed
+// into the necessary functions.
+
+void polish(program *prog, player *user, polish_stack *pol_stack)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], ";") ){
+
+		check_and_assign_variable(pol_stack, user);
+		
+		++prog -> current_word;
+		
+		return;
+	}
+	else if( op(prog, user) ){
+
+		op_interpret(prog, user, pol_stack);
+
+		++prog -> current_word;
+
+		polish(prog, user, pol_stack);
+
+	}
+	else{
+
+		varnum(prog, user);
+		polish_varnum_interpret(prog, user, pol_stack);
+		polish(prog, user, pol_stack);
+
+	}
+}
+
+// Looks for operators to be parsed and sets the user -> current_operator accordingly.
+
+success_unsuccess op(program *prog, player *user)
+{
+	if( same_string(prog -> prog_line[prog -> current_word], "+") ){
+		user -> current_operator = '+';
+		return (successful);
+	}
+	else if( same_string(prog -> prog_line[prog -> current_word], "-") ){
+		user -> current_operator = '-';
+		return (successful);
+	}
+	else if( same_string(prog -> prog_line[prog -> current_word], "/") ){
+		user -> current_operator = '/';
+		return (successful);
+	}
+	else if( same_string(prog -> prog_line[prog -> current_word], "*") ){
+		user -> current_operator = '*';
+		return (successful);
+	}
+	else{
+		return(unsuccessful);
+	}
+}
+
+// This is the varnum part of the grammar. It scans the string we input for a float. If we haven't
+// had any success finding a number in the string we look for a variable. If we have found a number
+// then we turn on the constant checker in the user structure and assign the number to the current
+// constant to be used later.
+
+// The final thing we would then do is increment where we are in the program.
+
+void varnum(program *prog, player *user)
+{
+	float number; 
+	int scan_checker = 0;
+
+	scan_checker = sscanf(prog -> prog_line[ prog -> current_word ], "%f", &number);
+
+	if(scan_checker == 0){
+		var(prog, user);
+	}
+	else{
+
+		user -> current_constant = number;
+		user -> constant_checker = on;
+		user -> variable_checker = off;
+
+		++prog -> current_word;
+
+	}
+
+}
+
+// This is the variable part of the grammar. It looks to scan in a letter from A-Z. If nothing has been
+// detected then this must be an error and this is printed.
+
+// Otherwise the user's current variable is set (but normalised so it maps to indices in an array) and 
+// then the variable_checker is set to on and constant_checker set to off. We increment the program
+// by one.
+
+void var(program *prog, player *user)
+{
+	char variable;
+
+	if( sscanf( prog -> prog_line[ prog -> current_word ], "%[A-Z]c", &variable) == 0){
+
+		clear_screen();
+		ERROR("\nExpected a variable or number.\n\n");
+
+	}
+	else{
+
+		//Normalise the variable letter to a number between 0 and 25 to map to an array.
+		user -> current_variable = variable - 'A';
+		user -> variable_checker = on;
+		user -> constant_checker = off;
+
+		++prog -> current_word;
+
+	}
+}
+
+// Function used for printing the SDL array. If the components are coloured then it colours them on screen.
+// At the end it waits for the user to press a button to skip out of the program.
+
+void print_SDL_array(player *user, SDL_Simplewin *sw)
+{
+	int i, j;
+	SDL_Rect rectangle;
+
+   	rectangle.w = RECT_W;
+   	rectangle.h = RECT_H;
+
+   	sw -> skip_checker = off;
+
+   	for(i = 0; i < WHEIGHT; ++i){
+   		for(j = 0; j < WWIDTH; ++j){
+
+   			if(user -> player_board[i][j] == coloured){
+   				rectangle.y = i;
+   				rectangle.x = j;
+   				Neill_SDL_SetDrawColour(sw, WHITE, WHITE, WHITE);
+   				SDL_RenderFillRect(sw->renderer, &rectangle);
+   			}
+
+   		}
+   	}
+
+   	SDL_RenderPresent(sw->renderer);
+    	SDL_UpdateWindowSurface(sw->win);
+    
+    	do{
+    		Neill_SDL_Events(sw);
+    	}while(sw->skip_checker != on && !sw->finished);
+}

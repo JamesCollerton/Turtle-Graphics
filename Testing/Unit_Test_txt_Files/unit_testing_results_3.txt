@@ -1,0 +1,1592 @@
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Initialise Program Suite
+  Test: Test of initialise_program() ...
+
+First word successfully initialised to zero.
+
+Number of lines in file successfully initialised to zero.
+
+If no errors above: All lines in program file successfully initialised to zero.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts    102    102    102      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Initialise Player Suite
+  Test: Test of initialise_player() ...
+
+If no errors above: player board initialised to uncoloured.
+
+If no errors above: looping array successfully initialised to zero.
+
+If no errors above: all variable values successfully initialised to ERROR_VALUE.
+
+User successfully positioned on middle row.
+
+User successfully positioned on middle col.
+
+User angle successfully set to zero.
+
+User current position successfully coloured.
+
+User current constant successfully initialised to zero.
+
+User current variable successfully initialised to zero.
+
+User current operator successfully initialised to zero.
+
+SET variable successfully initialised to zero.
+
+Iterations for loop successfully initialised to zero.
+
+Looping index successfully initialised to zero.
+
+Variable checker successfully set to off.
+
+Constant checker successfully set to off.
+
+Operation indicator successfully set to off.
+
+Loop indicator successfully set to off.
+
+passed
+
+Run Summary:    Type   Total     Ran  Passed Failed Inactive
+              suites       1       1     n/a      0        0
+               tests       1       1       1      0        0
+             asserts 1000540 1000540 1000540      0      n/a
+
+Elapsed time =    0.010 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Open Program Suite
+  Test: Test of open_program_file() ...
+
+File opened and registered.
+
+Number of lines in file assigned.
+
+Nonexistent filename left unopened.
+
+Too large file correctly dealt with.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     38     38     38      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Same String Suite
+  Test: Test of same_string() ...
+
+Identical strings correctly registered.
+
+Unidentical strings correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Instrctlist Suite
+  Test: Test of instrctlist() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to terminating character }.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Instruction Suite
+  Test: Test of instruction() ...
+
+FD command successfully registered.
+
+LT command successfully registered.
+
+RT command successfully registered.
+
+DO command successfully registered.
+
+SET command successfully registered.
+
+No instruction correctly registered
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: FD Suite
+  Test: Test of fd() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to FD.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Turn Suite
+  Test: Test of lt_rt() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to RT.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to LT.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     12     12     12      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Do Suite
+  Test: Test of do_check() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to DO.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Do Loop Suite
+  Test: Test of do_loop() ...
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect FROM statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to {.
+
+Incorrect FROM statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to TO.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect FROM statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to TO.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to {.
+
+Incorrect FROM statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to FROM.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Correctly forwarded through FROM part of do_loop
+
+Word counter successfully incremented by one.
+
+Incorrect TO statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to FROM.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to {.
+
+Correctly forwarded through FROM part of do_loop
+
+Word counter successfully incremented by one.
+
+Incorrect TO statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to FROM.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to TO.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Correctly forwarded through FROM part of do_loop
+
+Word counter successfully incremented by one.
+
+Correctly forwarded through TO part of do_loop
+
+Word counter successfully incremented by one.
+
+Incorrect { statement caught.
+
+Word counter successfully incremented by one.
+
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to FROM.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to TO.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to {.
+
+Correctly forwarded through FROM part of do_loop
+
+Word counter successfully incremented by one.
+
+Correctly forwarded through TO part of do_loop
+
+Word counter successfully incremented by one.
+
+Correctly forwarded through { part of do_loop
+
+Word counter successfully incremented by one.
+
+DO loop initiated.
+
+Currently on iteration 1/6 of the DO loop.
+
+Currently on iteration 2/6 of the DO loop.
+
+Currently on iteration 3/6 of the DO loop.
+
+Currently on iteration 4/6 of the DO loop.
+
+Currently on iteration 5/6 of the DO loop.
+
+Currently on iteration 6/6 of the DO loop.
+
+DO loop finished.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     82     82     82      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Var Suite
+  Test: Test of var() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to A.
+
+Variable in string correctly registered by var.
+
+Variable correctly scanned from string and stored in appropriate place in user struct.
+
+Constant checker in user struct correctly turned off.
+
+Variable checker in user struct correctly turned on.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string set to !.
+
+Non-variable correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      9      9      9      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Loop Subject Var Interpret Suite
+  Test: Test of loop_subject_var_interpret() ...
+
+Valid loop index.
+
+The user looping index has been incremented.
+
+Valid number of loops detected.
+
+
+Invalid loop index.
+
+The user looping index has been incremented.
+
+Too many embedded loops detected.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      4      4      4      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Varnum Suite
+  Test: Test of varnum() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to A.
+
+No number scanned from string correctly.
+
+If no errors here: 
+
+Current string set to 35.
+
+Number from string correctly registered as 35.
+
+Number in string correctly registered by varnum.
+
+Number correctly scanned from string and stored in user struct.
+
+Constant checker in user struct correctly turned on.
+
+Variable checker in user struct correctly turned off.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string set to !.
+
+No number scanned from string correctly.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     12     12     12      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Loop Start Var Interpreter Suite
+  Test: Test of loop_start_var_interpreter() ...
+
+Constant checker set to on, variable checker set to off.
+
+Constant checker detected to be on.
+
+Start of loop correctly assigned.
+
+Variable set to same value as start of loop.
+
+
+Constant checker set to off, variable checker set to on.
+
+Variable checker detected to be on.
+
+Start of loop correctly assigned.
+
+Variable set to same value as start of loop.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Loop End Var Interpreter Suite
+  Test: Test of loop_end_var_interpreter() ...
+
+Constant checker set to on, variable checker set to off, valid start and end.
+
+Constant checker detected to be on.
+
+End of loop correctly assigned.
+
+Constant checker set to off, variable checker set to on, valid start and end.
+
+Variable checker detected to be on.
+
+Variable checker detected to be on.
+
+Constant checker set to off, variable checker set to on, invalid start and end.
+
+Variable checker detected to be on.
+
+Variable checker detected to be on.
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: FD Suite (Interpreting)
+  Test: Test of fd_interpret() ...
+
+Variable checker set to be on.
+
+Variable checker correctly interpreted as on.
+
+Constant checker set to be on.
+
+Constant checker correctly interpreted as on.
+
+Neither constant checker nor variable checker set to be on.
+
+Error of neither a variable nor constant being set successfully caught.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      3      3      3      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check Variable Suite
+  Test: Test of check_variable() ...
+
+Value for current variable set to be error value.
+
+Error value for variable correctly registered.
+
+Value for current variable set to be non-error value.
+
+Non-error value for variable correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Draw Angled Line Suite
+  Test: Test of draw_angled_line() ...
+
+Angle set to a random point between 0 and 90.
+
+If no errors above all angles correctly categorised.
+
+
+Angle set to a random point between 90 and 180.
+
+If no errors above all angles correctly categorised.
+
+
+Angle set to a random point between 180 and 270.
+
+If no errors above all angles correctly categorised.
+
+
+Angle set to a random point between 270 and 360.
+
+If no errors above all angles correctly categorised.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     75     75     75      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Draw Next Square Suite
+  Test: Test of draw_next_square() ...
+
+Angle set to be in top right corner.
+
+Angle set randomly as 46.
+
+Angle correctly registered as being in top right.
+
+The 'opposite' (from SOH) successfully assigned.
+
+The 'adjacent' (from CAH) successfully assigned.
+
+Top right grid location successfully registered.
+
+
+Angle set to be in top left corner.
+
+Angle set randomly as 116.
+
+Angle correctly registered as not being in top right.
+
+Temporary angle for trig functions successfully set.
+
+The 'opposite' (from SOH) successfully assigned.
+
+The 'adjacent' (from CAH) successfully assigned.
+
+Top left grid location successfully registered.
+
+
+Angle set to be in bottom left corner.
+
+Angle set randomly as 212.
+
+Angle correctly registered as not being in top right.
+
+Temporary angle for trig functions successfully set.
+
+The 'opposite' (from SOH) successfully assigned.
+
+The 'adjacent' (from CAH) successfully assigned.
+
+Bottom left grid location successfully registered.
+
+
+Angle set to be in bottom right corner.
+
+Angle set randomly as 284.
+
+Angle correctly registered as not being in top right.
+
+Temporary angle for trig functions successfully set.
+
+The 'opposite' (from SOH) successfully assigned.
+
+The 'adjacent' (from CAH) successfully assigned.
+
+Bottom right grid location successfully registered.
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     19     19     19      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Drawing Process Suite
+  Test: Test of drawing_process() ...
+
+Defined location, defined hypotenuse length, defined number steps.
+
+Successfully detected to be inside defined area.
+
+
+Undefined location (over cols), defined hypotenuse length, defined number steps.
+
+Successfully detected to be inside defined area.
+
+
+Undefined location (over rows), defined hypotenuse length, defined number steps.
+
+Successfully detected to be inside defined area.
+
+
+Undefined location (under cols), defined hypotenuse length, defined number steps.
+
+Location outside of defined area detected.
+
+
+Undefined location (under rows), defined hypotenuse length, defined number steps.
+
+Location outside of defined area detected.
+
+
+Defined location, hypotenuse length == number steps - 1.
+
+Successfully detected to be inside defined area.
+
+Taken the desired number of steps in the correct direction registered.
+
+New user position row set.
+
+New user position col set.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      9      9      9      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: LT/ RT Interpreting Suite
+  Test: Test of lt_rt_interpret() ...
+
+Constant checker is turned on.
+
+Checking the LT case.
+
+Constant checker registered as on.
+
+LT interpreted to be on.
+
+Angle incremented correctly.
+
+Checking the RT case.
+
+Constant checker registered as on.
+
+RT interpreted to be on.
+
+Angle incremented correctly.
+
+
+
+Variable checker is turned on.
+
+Checking the LT case.
+
+New user position col set.
+
+LT interpreted to be on.
+
+Angle incremented correctly.
+
+Checking the RT case.
+
+New user position col set.
+
+RT interpreted to be on.
+
+Angle incremented correctly.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     12     12     12      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Adjust Angle Suite
+  Test: Test of adjust_angle() ...
+
+Angle set as negative.
+
+Angle correctly registered as negative.
+
+Angle correctly adjusted for being negative.
+
+Angle set as positive.
+
+Angle correctly registered as positive.
+
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      3      3      3      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Set Check Suite
+  Test: Test of set_check() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to SET.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Set Loop Suite
+  Test: Test of set_loop() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to :=.
+
+Command successfully registered.
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+Current string successfully set to !.
+
+Incorrect command correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Initialising Polish Stack Suite
+  Test: Test of initialise_pol_stack() ...
+
+All components of the RPN stack successfully initialised to zero.
+
+Current location in RPN stack successfully initialised to zero.
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts    101    101    101      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Interpret Set Variable Suite
+  Test: Test of interpret_set_variable() ...
+
+The variable under consideration is A.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is B.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is C.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is D.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is E.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is F.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is G.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is H.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is I.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is J.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is K.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is L.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is M.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is N.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is O.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is P.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is Q.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is R.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is S.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is T.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is U.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is V.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is W.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is X.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is Y.
+
+The current variable has been succesfully entered into the SET category.
+
+The variable under consideration is Z.
+
+The current variable has been succesfully entered into the SET category.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     26     26     26      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Polish Suite
+  Test: Test of polish() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string successfully set to ;
+
+Terminating clause of Polish statement successfully registered.
+
+Word counter successfully incremented by one.
+
+Operand indicator set to be on.
+
+Operand clause of Polish statement successfully registered.
+
+Word counter successfully incremented by one.
+
+Operand indicator and end statement set to be off, by default searching for numbers/ variables.
+
+Number/ variable clause of Polish statements successfully registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      7      7      7      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Operand Suite
+  Test: Test of op() ...
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to +.
+
+Correct operator registered.
+
+Correct operator assigned to user operator.
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to -.
+
+Correct operator registered.
+
+Correct operator assigned to user operator.
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to /.
+
+Correct operator registered.
+
+Correct operator assigned to user operator.
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to *.
+
+Correct operator registered.
+
+Correct operator assigned to user operator.
+
+
+Current place in instructions appropriately randomly assigned.
+
+If no errors here: 
+
+Current string set to !.
+
+Default argument correctly registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     19     19     19      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Polish Varnum Interpret Suite
+  Test: Test of polish_varnum_interpret() ...
+
+Constant checker set to be on, variable checker set to be off.
+
+Constant checker successfully registered as on.
+
+
+Constant checker set to be off, variable checker set to be on.
+
+Variable checker successfully registered as on.
+
+
+Constant checker set to be off, variable checker set to be off.
+
+Both variable and constant checkers registered to be off.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      3      3      3      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Push to Stack Suite
+  Test: Test of push_to_stack() ...
+
+Constant successfully pushed to the top of the stack.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      1      1      1      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: OP Interpret Suite
+  Test: Test of op_interpret() ...
+
+Defined place in stack, addition operator.
+
+Addition symbol as operator correctly registered.
+
+Addition correctly performed.
+
+Operation indicator turned on to signal to look for operator.
+
+Top value in stack replaced with result of operation.
+
+Old top of stack reinitialised to zero.
+
+Place in stack taken down by one to be at last result.
+
+
+Defined place in stack, subtraction operator.
+
+Subtraction symbol as operator correctly registered.
+
+Subtraction correctly performed.
+
+Operation indicator turned on to signal to look for operator.
+
+Top value in stack replaced with result of operation.
+
+Old top of stack reinitialised to zero.
+
+Place in stack taken down by one to be at last result.
+
+
+Defined place in stack, division operator.
+
+Division symbol as operator correctly registered.
+
+Division correctly performed.
+
+Operation indicator turned on to signal to look for operator.
+
+Top value in stack replaced with result of operation.
+
+Old top of stack reinitialised to zero.
+
+Place in stack taken down by one to be at last result.
+
+
+Defined place in stack, multiplication operator.
+
+Multiplication symbol as operator correctly registered.
+
+Multiplication correctly performed.
+
+Operation indicator turned on to signal to look for operator.
+
+Top value in stack replaced with result of operation.
+
+Old top of stack reinitialised to zero.
+
+Place in stack taken down by one to be at last result.
+
+
+Undefined place in stack, addition operator.
+
+Being at an undefined place in the stack registered.
+
+
+Undefined place in stack, addition operator.
+
+Being at an undefined place in the stack registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     26     26     26      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check and Assign Variable Suite
+  Test: Test of check_and_assign_variable() ...
+
+Operation indicator set to be off, stack not at 1.
+
+The current index of the stack has been registered to not be one.
+
+
+Operation indicator set to be off, stack at 1.
+
+The operation indicator has been detected to be off.
+
+The desired variable has not been updated after an operation.
+
+
+Operation indicator set to be on, stack at 1.
+
+The operation indicator has been detected to be on.
+
+The desired variable has been updated after an operation.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      5      5      5      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check Loop Finish Suite
+  Test: Test of check_loop_finish() ...
+
+Loop not set to be ended.
+
+Not end of loop detected.
+
+
+Loop set to be ended.
+
+Not end of loop detected.
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Parsing and Interpreting Suite
+  Test: Test of parse_text_and_interpret() ...
+If no errors here: 
+
+
+First character successfully set to {.
+
+First character correctly registered. as {
+
+Word counter successfully incremented by one.
+
+If no errors here: 
+
+
+First character successfully set to !.
+
+First character correctly registered as !.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      5      5      5      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Clear Screen Suite
+  Test: Test of clear_screen() ...
+
+Clear screen successfully registers incorrect value.
+
+Clear screen fails and prints an error.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+[H[2J

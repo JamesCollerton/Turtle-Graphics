@@ -1,0 +1,246 @@
+/*
+
+This is the stand alone framework for testing the password system. It sets every possible password and then tries every possible password,
+outputting to a file when one is registered as correct.
+
+I am actually really proud of this ^-^.
+
+*/
+
+//Included from the integrated version so that this program had access to all of the necessary structures etc.
+
+#include "turtle_definitions_and_structures.h"
+
+//											NEW FUNCTIONS.
+void clear_screen(void);
+
+void write_output_file_based_on_code(int password);
+
+void decode_password_files(int password, int attempted_password, password_info *pw_info);
+
+
+//	 										FUNCTIONS FROM ORIGNAL.
+void initialise_pw_info(password_info *pw_info, int attempted_password, int password);
+
+void get_password_input(password_info *pw_info);
+
+void read_in_pw_array(password_info *pw_info, password_array pw_array, initial_final array_ind);
+
+void read_in_password_file(FILE **password_file, password_array pw_array);
+
+void map_arrays(password_info *pw_info, password_array initial_array, password_array final_array);
+
+void compare_arrays(password_info *pw_info, password_array final_array);
+
+void print_results_to_file(password_info *pw_info);
+
+
+//											MAIN
+int main(void)
+{
+	int i, j;
+	password_info pw_info;
+
+	//The i represents the correct password and j is a possible password.
+	//This loop goes through setting and solving passwords in all different combinations.
+	for(i = 0; i < NUM_INTS_PW_FILE; ++i){
+		for(j = 0; j < NUM_INTS_PW_FILE; ++j){
+
+			//Prints an update every 100 attempts.
+			if(j % UPDATE_NUM == 0){
+				clear_screen();
+				printf("\nPlease wait, attempting to find password %d.\n" 		\
+				   	   "Currently using attempted password %d.", i, j);
+			}
+
+			write_output_file_based_on_code(i);
+
+			decode_password_files(i, j, &pw_info);
+		}
+	}
+
+	return(0);
+}
+
+//											FUNCTION DEFINITIONS
+
+// Function for clearing screen taken from integrated design.
+
+void clear_screen(void)
+{
+	int clear_screen_checker;
+
+	clear_screen_checker = system("clear");
+
+	if(clear_screen_checker != CLEAR_SUCCESS){
+		fprintf(stderr, "\nThere was an error clearing the screen.\n\n");
+		exit(EXIT_CODE);
+	}
+
+}
+
+// This simply opens and writes to the two files depending on the password.
+// temp_array_1 is filled with 1000 random 0 and 1 figures and then written to
+// a file, temp_array_2 is then filled according to the password and the hashing
+// key.
+
+void write_output_file_based_on_code(int password)
+{
+	FILE *prog_file;
+	int temp_array_1[NUM_INTS_PW_FILE], temp_array_2[NUM_INTS_PW_FILE];
+
+	prog_file = fopen("output_file.txt", "w");
+
+	for(int i = 0; i < NUM_INTS_PW_FILE; ++i){
+		temp_array_1[i] = rand() % BINARY;
+		fprintf(prog_file, "%d ", temp_array_1[i]);
+	}
+
+	fclose(prog_file);
+
+	prog_file = fopen("output_file_2.txt", "w");
+
+	for(int i = 0; i < NUM_INTS_PW_FILE; ++i){
+		temp_array_2[i] = temp_array_1[ (i + password) % NUM_INTS_PW_FILE ];
+		fprintf(prog_file, "%d ", temp_array_2[i]);
+	}
+
+	fclose(prog_file);
+}
+
+// This is lifted straight from the integrated design and is the decoding process for the 
+// passwords. However in this version there are some slight modifications to check which
+// passwords are being accepted.
+
+void decode_password_files(int password, int attempted_password, password_info *pw_info)
+{
+	password_array initial_array, finish_array;
+
+	initialise_pw_info(pw_info, attempted_password, password);
+
+	read_in_pw_array(pw_info, initial_array, initial);
+
+	read_in_pw_array(pw_info, finish_array, final);
+
+	map_arrays(pw_info, initial_array, finish_array);
+
+	compare_arrays(pw_info, finish_array);
+}
+
+// Now we have the true password that is the one that has been set in the previous loop as well
+// as an attempted password that we are going to try and use to break into the program.
+
+void initialise_pw_info(password_info *pw_info, int attempted_password, int password)
+{
+
+	pw_info -> pw_indicator = decline;
+	pw_info -> password = attempted_password;
+	pw_info -> true_password = password;
+
+}
+
+// This function is lifted straight from the integrated design and can be read about there.
+
+void read_in_pw_array(password_info *pw_info, password_array pw_array, initial_final array_ind)
+{
+
+	FILE *password_file;
+
+	if(array_ind == initial){
+		password_file = fopen("output_file.txt", "r");
+	}
+	else{
+		password_file = fopen("output_file_2.txt", "r");
+	}
+
+	if( password_file == NULL){
+		clear_screen();
+		fprintf(stderr, "\nThere was an error reading in the file.\n\n");
+		exit(EXIT_CODE);
+	}
+
+	read_in_password_file(&password_file, pw_array);
+
+	fclose(password_file);
+}
+
+// This function is lifted straight from the integrated design and can be read about there.
+
+void read_in_password_file(FILE **password_file, password_array pw_array)
+{
+
+	int temp, i = 0;
+
+	while( fscanf(*password_file, "%d", &temp) == SCAN_SUCCESS){
+
+		pw_array[i] = temp;
+		++i;
+
+		if(i > NUM_INTS_PW_FILE){
+			clear_screen();
+			fprintf(stderr, "\nPassword file has too many characters.\n\n");
+			exit(EXIT_CODE);
+		}
+	}
+
+}
+
+// This function is lifted straight from the integrated design and can be read about there.
+
+void map_arrays(password_info *pw_info, password_array initial_array, password_array final_array)
+{
+
+	int i;
+
+	for(i = 0; i < NUM_INTS_PW_FILE; ++i){
+		pw_info -> temp_pw_array[i] = initial_array[ (i + pw_info -> password) % NUM_INTS_PW_FILE ];
+	}
+
+}
+
+// This function is lifted straight from the integrated design and can be read about there.
+
+void compare_arrays(password_info *pw_info, password_array final_array)
+{
+
+	int i;
+
+	for(i = 0; i < NUM_INTS_PW_FILE; ++i){
+		if(pw_info -> temp_pw_array[i] != final_array[i]){
+			return;
+		}
+	}
+
+	pw_info -> pw_indicator = accept;
+
+	//This is slightly different to the normal version. If the password that has been registered
+	//as correct does not match what we thought we set, then the program exits. Otherwise the program
+	//prints to file the results so we have a record of them.
+
+	if(pw_info -> password != pw_info -> true_password){
+		exit(EXIT_CODE);
+	}
+	else{
+		print_results_to_file(pw_info);
+	}
+
+}
+
+//This prints the results of the attempted password cracking to a file to be included with the submission.
+
+void print_results_to_file(password_info *pw_info)
+{
+	FILE *checking_file;
+
+	//Note! If you run this then it just adds info on the end of the current file!
+	if( (checking_file = fopen("checking_file.txt", "ab")) == NULL){
+		clear_screen();
+		fprintf(stderr, "\nThere was an error reading in the file.\n\n");
+		exit(EXIT_CODE);
+	}
+
+	fprintf(checking_file, "\nTrue password: %d Registered password: %d. Difference: %d\n", 
+			pw_info -> true_password, pw_info -> password, pw_info -> true_password - pw_info -> password);
+
+	fclose(checking_file);
+}

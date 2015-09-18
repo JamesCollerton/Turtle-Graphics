@@ -1,0 +1,13 @@
+{ 
+RT 0
+DO A FROM 1 TO 25 {
+	FD 100
+	RT 71
+	FD 265
+	RT 41
+	FD 220
+	RT 94
+	FD 165
+	RT 23
+}  
+}

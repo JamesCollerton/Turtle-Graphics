@@ -1,0 +1,361 @@
+
+Correct number of arguments from command line registered.
+
+Current word set to zero.
+
+Number of lines in file set to zero.
+
+All of program in program structure set to end string characters.
+
+All parts of board set to uncoloured.
+
+All parts of looping array set to zero.
+
+All values in looping array set to zero.
+
+Remaining components set to initial values.
+
+File successfully opened.
+
+Correct number of commands scanned: 50.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program word incremented, now at word: 1, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 2, command: 30.
+
+Constant registered as: 30.000000.
+
+Program word incremented, now at word: 3, command: LT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 30 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 4, command: 90.
+
+Constant registered as: 90.000000.
+
+Program word incremented, now at word: 5, command: FD.
+
+New angle 90 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 6, command: 30.
+
+Constant registered as: 30.000000.
+
+Program word incremented, now at word: 7, command: RT.
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 90.
+
+Moving forward by: 30 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 8, command: 90.
+
+Constant registered as: 90.000000.
+
+Program word incremented, now at word: 9, command: FD.
+
+New angle 0 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 10, command: 10.
+
+Constant registered as: 10.000000.
+
+Program word incremented, now at word: 11, command: LT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 10 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 12, command: 180.
+
+Constant registered as: 180.000000.
+
+Program word incremented, now at word: 13, command: FD.
+
+New angle 180 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 14, command: 10.
+
+Constant registered as: 10.000000.
+
+Program word incremented, now at word: 15, command: RT.
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 180.
+
+Moving forward by: 10 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 16, command: 180.
+
+Constant registered as: 180.000000.
+
+Program word incremented, now at word: 17, command: FD.
+
+New angle 0 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 18, command: 20.
+
+Constant registered as: 20.000000.
+
+Program word incremented, now at word: 19, command: LT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 20 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 20, command: 270.
+
+Constant registered as: 270.000000.
+
+Program word incremented, now at word: 21, command: FD.
+
+New angle 270 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 22, command: 20.
+
+Constant registered as: 20.000000.
+
+Program word incremented, now at word: 23, command: RT.
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 270.
+
+Moving forward by: 20 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 24, command: 270.
+
+Constant registered as: 270.000000.
+
+Program word incremented, now at word: 25, command: FD.
+
+New angle 0 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 26, command: 40.
+
+Constant registered as: 40.000000.
+
+Program word incremented, now at word: 27, c[H[2Jommand: LT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 40 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 28, command: 360.
+
+Constant registered as: 360.000000.
+
+Program word incremented, now at word: 29, command: FD.
+
+New angle 360 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 30, command: 40.
+
+Constant registered as: 40.000000.
+
+Program word incremented, now at word: 31, command: RT.
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 360.
+
+Moving forward by: 40 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 32, command: 360.
+
+Constant registered as: 360.000000.
+
+Program word incremented, now at word: 33, command: FD.
+
+New angle 0 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 34, command: 50.
+
+Constant registered as: 50.000000.
+
+Program word incremented, now at word: 35, command: LT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 50 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 36, command: -40.
+
+Constant registered as: -40.000000.
+
+Program word incremented, now at word: 37, command: FD.
+
+New angle 320 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 38, command: 50.
+
+Constant registered as: 50.000000.
+
+Program word incremented, now at word: 39, command: RT.
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 320.
+
+Moving forward by: 50 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 40, command: -40.
+
+Constant registered as: -40.000000.
+
+Program word incremented, now at word: 41, command: FD.
+
+New angle 360 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 42, command: 5.
+
+Constant registered as: 5.000000.
+
+Program word incremented, now at word: 43, command: LT.
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 360.
+
+Moving forward by: 5 (Note: Will be integer as must move forward discrete steps).
+
+LT registered.
+
+Program word incremented, now at word: 44, command: 80.
+
+Constant registered as: 80.000000.
+
+Program word incremented, now at word: 45, command: FD.
+
+New angle 80 (Note: Will be integer as angles measured as discrete degrees).
+
+FD registered.
+
+Program word incremented, now at word: 46, command: 5.
+
+Constant registered as: 5.000000.
+
+Program word incremented, now at word: 47, command: RT.
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 80.
+
+Moving forward by: 5 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 48, command: 80.
+
+Constant registered as: 80.000000.
+
+Program word incremented, now at word: 49, command: }.
+
+New angle 0 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 50, command: .
+
+Screen successfully cleared.
+Your text was parsed as follows:
+
+{
+FD
+30
+LT
+90
+FD
+30
+RT
+90
+FD
+10
+LT
+180
+FD
+10
+RT
+180
+FD
+20
+LT
+270
+FD
+20
+RT
+270
+FD
+40
+LT
+360
+FD
+40
+RT
+360
+FD
+50
+LT
+-40
+FD
+50
+RT
+-40
+FD
+5
+LT
+80
+FD
+5
+RT
+80
+}
+

@@ -1,0 +1,522 @@
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check_Initialisation Suite
+  Test: Test of check_initialisation() ...
+
+All mallocs successful.
+
+All mallocs succeeded identified.
+
+
+Prog malloc failed.
+
+Malloc failed correctly identified.
+
+
+User malloc failed.
+
+Malloc failed correctly identified.
+
+
+Whitespace_Prog malloc failed.
+
+Malloc failed correctly identified.
+
+
+First_Board malloc failed.
+
+Malloc failed correctly identified.
+
+
+Pw_info malloc failed.
+
+Malloc failed correctly identified.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      6      6      6      0      n/a
+
+Elapsed time =    0.000 seconds
+[H[2J
+
+Please enter the password: 
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Read in Password Array Suite
+  Test: Test of read_in_pw_array() ...
+
+Initial file set to be opened.
+
+Initial file registered.
+
+Final file set to be opened.
+
+Final file registered.
+
+Undefined file set to be opened.
+
+No file open registered correctly.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      3      3      3      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Map Arrays Suite
+  Test: Test of map_arrays() ...
+
+If no errors above then arrays mapped correctly.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts   1000   1000   1000      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Compare Arrays Suite
+  Test: Test of compare_arrays() ...
+
+Different arrays set.
+
+Different arrays correctly registered.
+
+Same arrays set.
+
+Same arrays registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+[H[2J
+Password Accepted.
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check Animation Preferences Suite
+  Test: Test of check_animation_preferences() ...
+
+Start animation preference at 0, incrementing.
+
+Animation speed in valid range.
+
+Animation speed successfully set.
+
+
+Start animation preference at 10,100, decrementing.
+
+Animation speed in valid range.
+
+Animation speed successfully set.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      4      4      4      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Initialise Whitespace Program Suite
+  Test: Test of initialise_whitespace_prog() ...
+
+If no errors above, all spaces, tabs, number indicators, the verbatim file and the decoder array are all correctly set.
+
+Number of whitespace lines correctly set to zero.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts    442    442    442      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Open Whitespace Program Suite
+  Test: Test of open_whitespace_program_file() ...
+
+Program file set to NULL.
+
+Program correctly registered as unopened.
+
+
+
+Program should be opened.
+
+Program correctly registered as opened.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Strip Non Whitespace Components Suite
+  Test: Test of strip_non_whitespace_components() ...
+
+Both files should open.
+
+Program correctly registered as opened.
+
+
+
+Whitespace file set to NULL.
+
+Program correctly registered as unopened.
+
+
+
+Stripped whitespace file set to NULL.
+
+Program correctly registered as unopened.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      3      3      3      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Scan in Whitespace Components Suite
+  Test: Test of scan_in_whitespace_components() ...
+
+Character set as space.
+
+First time having visited this line registered.
+
+First pass indicator turned off.
+
+Space registered
+
+Space counter incremented.
+
+Program correctly registered as opened.
+
+
+Character set as tab.
+
+Tab registered.
+
+First pass checked again to see if it's on.
+
+Tab counter incremented.
+
+Program correctly registered as opened.
+
+
+Character set as newline.
+
+Newline character registered.
+
+Space counter set in whitespace structure.
+
+Tab counter set in whitespace structure.
+
+Space counter reset.
+
+Tab counter reset.
+
+First pass for the next line set.
+
+Line in whitespace file incremented
+
+Program correctly registered as opened.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     14     14     14      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Initialise Decoder Array Suite
+  Test: Test of initialise_decoder_array() ...
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+Instruction successfully scanned into decoding array.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts     41     41     41      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Write File from Whitespace Suite
+  Test: Test of write_file_from_whitespace() ...
+
+File set as unopened.
+
+File incorrectly opened registered.
+
+File set as opened.
+
+File correctly opened registered.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Write Whitespace Program to File Suite
+  Test: Test of write_whitespace_prog_to_file() ...
+
+All number indicators set to on.
+
+All number indicators set to off.
+
+If no errors above then all cases dealt with correctly.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts    169    169    169      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Assign Board To List Suite
+  Test: Test of assign_board_to_list() ...
+
+Board set to NULL.
+
+Board correctly identified as NULL.
+
+Board space malloced.
+
+Latest board correctly added to list.
+
+Latest board correctly assigned.
+
+Next board in list correctly set to NULL.
+
+Latest board correctly set to itself.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      5      5      5      0      n/a
+
+Elapsed time =    0.000 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Copy Board into List Suite
+  Test: Test of copy_board_into_list() ...
+
+If no errors above, all elements correctly copied into new grid.
+
+passed
+
+Run Summary:    Type   Total     Ran  Passed Failed Inactive
+              suites       1       1     n/a      0        0
+               tests       1       1       1      0        0
+             asserts 1000000 1000000 1000000      0      n/a
+
+Elapsed time =    0.005 seconds
+
+
+     CUnit - A unit testing framework for C - Version 2.1-2
+     http://cunit.sourceforge.net/
+
+
+Suite: Check Free All Print Boards Suite
+  Test: Test of free_all_print_boards() ...
+
+Current board set to NULL.
+
+Current board registered as null.
+
+
+Current board valid.
+
+Board after switched to next board.
+
+Current board switched to board after.
+
+Current board set to null.
+
+Current board registered as null.
+
+passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      5      5      5      0      n/a
+
+Elapsed time =    0.000 seconds

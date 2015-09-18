@@ -1,0 +1,12 @@
+{
+SET S := 50 ;
+SET L := 1500 S / ;
+SET A := 360 S / ;
+DO B FROM 1 TO 20 {
+	DO D FROM 1 TO S {
+		FD L
+		RT A
+	}
+	RT 18
+}
+}

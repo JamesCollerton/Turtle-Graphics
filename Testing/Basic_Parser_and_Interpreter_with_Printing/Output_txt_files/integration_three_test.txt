@@ -1,0 +1,6904 @@
+
+Correct number of arguments from command line registered.
+
+Current word set to zero.
+
+Number of lines in file set to zero.
+
+All of program in program structure set to end string characters.
+
+All parts of board set to uncoloured.
+
+All parts of looping array set to zero.
+
+All values in looping array set to zero.
+
+Remaining components set to initial values.
+
+File successfully opened.
+
+Correct number of commands scanned: 21.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program word incremented, now at word: 1, command: DO.
+
+DO registered.
+
+Program word incremented, now at word: 2, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 3, command: FROM.
+
+CURRENTLY INSIDE LOOP: 1.
+
+FROM registered.
+
+Program word incremented, now at word: 4, command: 1.
+
+Constant registered as: 1.000000.
+
+Program word incremented, now at word: 5, command: TO.
+
+The start of the loop has been registered to be: 1.
+
+TO registered.
+
+Program word incremented, now at word: 6, command: 100.
+
+Constant registered as: 100.000000.
+
+Program word incremented, now at word: 7, command: {.
+
+The end of the loop has been registered to be: 100.
+
+{ registered.
+
+Program word incremented, now at word: 8, command: SET.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 1.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 1.000000) multiplied together.
+
+Value 1.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 0.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 298 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 1/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 2.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 2.000000) multiplied together.
+
+Value 3.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 298.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 236 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 2/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 3.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 3.000000) multiplied together.
+
+Value 4.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 236.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 174 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 3/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 4.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 4.000000) multiplied together.
+
+Value 6.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 174.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 112 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 4/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 5.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 5.000000) multiplied together.
+
+Value 7.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 112.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 50 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 5/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 6.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 6.000000) multiplied together.
+
+Value 9.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 50.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 348 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 6/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 7.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 7.000000) multiplied together.
+
+Value 10.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 348.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 286 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 7/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 8.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 8.000000) multiplied together.
+
+Value 12.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 286.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 224 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 8/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 9.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 9.000000) multiplied together.
+
+Value 13.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 224.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 162 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 9/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 10.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 10.000000) multiplied together.
+
+Value 15.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 162.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 100 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 10/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 11.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 11.000000) multiplied together.
+
+Value 16.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 100.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 38 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 11/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 12.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 12.000000) multiplied together.
+
+Value 18.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 38.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 336 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 12/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 13.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 13.000000) multiplied together.
+
+Value 19.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 336.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 274 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 13/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 14.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 14.000000) multiplied together.
+
+Value 21.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 274.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 212 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 14/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 15.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 15.000000) multiplied together.
+
+Value 22.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 212.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 150 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 15/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 16.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 16.000000) multiplied together.
+
+Value 24.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 150.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 88 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 16/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 17.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 17.000000) multiplied together.
+
+Value 25.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 88.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 26 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 17/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 18.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 18.000000) multiplied together.
+
+Value 27.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 26.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 324 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 18/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 19.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 19.000000) multiplied together.
+
+Value 28.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 324.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 262 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 19/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 20.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 20.000000) multiplied together.
+
+Value 30.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 262.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 200 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 20/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 21.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 21.000000) multiplied together.
+
+Value 31.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 200.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 138 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 21/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 22.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 22.000000) multiplied together.
+
+Value 33.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 138.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 76 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 22/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 23.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 23.000000) multiplied together.
+
+Value 34.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 76.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 14 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 23/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 24.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 24.000000) multiplied together.
+
+Value 36.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 14.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 312 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 24/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 25.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 25.000000) multiplied together.
+
+Value 37.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 312.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 250 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 25/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 26.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 26.000000) multiplied together.
+
+Value 39.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 250.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 188 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 26/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 27.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 27.000000) multiplied together.
+
+Value 40.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 188.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 126 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 27/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 28.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 28.000000) multiplied together.
+
+Value 42.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 126.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 64 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 28/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 29.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 29.000000) multiplied together.
+
+Value 43.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 64.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 2 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 29/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 30.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 30.000000) multiplied together.
+
+Value 45.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 2.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 300 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 30/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 31.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 31.000000) multiplied together.
+
+Value 46.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 300.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 238 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 31/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 32.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 32.000000) multiplied together.
+
+Value 48.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 238.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 176 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 32/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 33.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 33.000000) multiplied together.
+
+Value 49.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 176.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 114 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 33/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 34.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 34.000000) multiplied together.
+
+Value 51.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 114.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 52 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 34/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 35.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 35.000000) multiplied together.
+
+Value 52.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 52.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 350 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 35/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 36.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 36.000000) multiplied together.
+
+Value 54.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 350.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 288 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 36/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 37.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 37.000000) multiplied together.
+
+Value 55.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 288.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 226 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 37/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 38.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 38.000000) multiplied together.
+
+Value 57.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 226.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 164 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 38/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 39.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 39.000000) multiplied together.
+
+Value 58.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 164.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 102 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 39/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 40.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 40.000000) multiplied together.
+
+Value 60.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 102.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 40 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 40/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 41.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 41.000000) multiplied together.
+
+Value 61.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 40.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 338 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 41/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 42.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 42.000000) multiplied together.
+
+Value 63.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 338.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 276 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 42/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 43.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 43.000000) multiplied together.
+
+Value 64.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 276.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 214 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 43/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 44.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 44.000000) multiplied together.
+
+Value 66.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 214.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 152 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 44/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 45.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 45.000000) multiplied together.
+
+Value 67.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 152.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 90 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 45/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 46.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 46.000000) multiplied together.
+
+Value 69.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 90.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 28 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 46/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 47.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 47.000000) multiplied together.
+
+Value 70.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 28.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 326 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 47/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 48.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 48.000000) multiplied together.
+
+Value 72.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 326.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 264 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 48/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 49.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 49.000000) multiplied together.
+
+Value 73.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 264.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 202 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 49/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 50.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 50.000000) multiplied together.
+
+Value 75.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 202.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 140 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 50/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 51.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 51.000000) multiplied together.
+
+Value 76.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 140.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 78 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 51/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 52.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 52.000000) multiplied together.
+
+Value 78.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 78.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 16 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 52/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 53.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 53.000000) multiplied together.
+
+Value 79.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 16.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 314 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 53/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 54.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 54.000000) multiplied together.
+
+Value 81.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 314.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 252 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 54/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 55.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 55.000000) multiplied together.
+
+Value 82.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 252.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 190 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 55/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 56.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 56.000000) multiplied together.
+
+Value 84.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 190.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 128 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 56/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 57.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 57.000000) multiplied together.
+
+Value 85.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 128.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 66 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 57/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 58.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 58.000000) multiplied together.
+
+Value 87.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 66.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 4 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 58/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 59.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 59.000000) multiplied together.
+
+Value 88.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 4.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 302 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 59/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 60.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 60.000000) multiplied together.
+
+Value 90.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 302.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 240 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 60/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 61.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 61.000000) multiplied together.
+
+Value 91.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 240.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 178 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 61/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 62.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 62.000000) multiplied together.
+
+Value 93.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 178.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 116 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 62/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 63.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 63.000000) multiplied together.
+
+Value 94.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 116.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 54 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 63/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 64.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 64.000000) multiplied together.
+
+Value 96.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 54.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 352 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 64/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 65.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 65.000000) multiplied together.
+
+Value 97.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 352.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 290 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 65/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 66.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 66.000000) multiplied together.
+
+Value 99.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 290.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 228 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 66/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 67.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 67.000000) multiplied together.
+
+Value 100.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 228.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 166 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 67/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 68.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 68.000000) multiplied together.
+
+Value 102.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 166.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 104 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 68/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 69.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 69.000000) multiplied together.
+
+Value 103.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 104.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 42 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 69/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 70.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 70.000000) multiplied together.
+
+Value 105.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 42.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 340 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 70/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 71.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 71.000000) multiplied together.
+
+Value 106.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 340.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 278 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 71/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 72.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 72.000000) multiplied together.
+
+Value 108.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 278.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 216 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 72/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 73.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 73.000000) multiplied together.
+
+Value 109.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 216.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 154 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 73/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 74.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 74.000000) multiplied together.
+
+Value 111.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 154.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 92 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 74/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 75.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 75.000000) multiplied together.
+
+Value 112.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 92.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 30 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 75/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 76.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 76.000000) multiplied together.
+
+Value 114.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 30.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 328 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 76/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 77.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 77.000000) multiplied together.
+
+Value 115.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 328.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 266 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 77/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 78.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 78.000000) multiplied together.
+
+Value 117.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 266.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 204 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 78/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 79.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 79.000000) multiplied together.
+
+Value 118.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 204.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 142 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 79/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 80.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 80.000000) multiplied together.
+
+Value 120.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 142.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 80 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 80/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 81.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 81.000000) multiplied together.
+
+Value 121.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 80.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 18 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 81/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 82.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 82.000000) multiplied together.
+
+Value 123.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 18.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 316 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 82/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 83.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 83.000000) multiplied together.
+
+Value 124.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 316.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 254 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 83/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 84.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 84.000000) multiplied together.
+
+Value 126.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 254.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 192 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 84/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 85.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 85.000000) multiplied together.
+
+Value 127.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 192.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 130 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 85/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 86.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 86.000000) multiplied together.
+
+Value 129.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 130.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 68 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 86/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 87.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 87.000000) multiplied together.
+
+Value 130.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 68.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 6 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 87/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 88.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 88.000000) multiplied together.
+
+Value 132.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 6.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 304 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 88/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 89.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 89.000000) multiplied together.
+
+Value 133.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 304.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 242 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 89/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 90.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 90.000000) multiplied together.
+
+Value 135.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 242.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 180 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 90/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 91.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 91.000000) multiplied together.
+
+Value 136.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 180.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 118 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 91/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 92.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 92.000000) multiplied together.
+
+Value 138.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 118.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 56 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 92/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 93.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 93.000000) multiplied together.
+
+Value 139.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 56.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 354 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 93/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 94.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 94.000000) multiplied together.
+
+Value 141.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 354.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 292 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 94/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 95.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 95.000000) multiplied together.
+
+Value 142.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 292.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 230 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 95/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 96.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 96.000000) multiplied together.
+
+Value 144.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 180 and 270. Actual Value: 230.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 168 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 96/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 97.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 97.000000) multiplied together.
+
+Value 145.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 168.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 106 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 97/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 98.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 98.000000) multiplied together.
+
+Value 147.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 90 and 180. Actual Value: 106.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 44 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 98/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 99.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 99.000000) multiplied together.
+
+Value 148.500000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 0 and 90. Actual Value: 44.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at wor[H[2Jd: 19, command: }.
+
+New angle 342 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 99/100 for loop 1.
+
+SET registered.
+
+Program word incremented, now at word: 9, command: C.
+
+Polish stack initialised.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 10, command: :=.
+
+:= Character registered.
+
+Program word incremented, now at word: 11, command: A.
+
+Variable registered as: A.
+
+Program word incremented, now at word: 12, command: 1.5.
+
+Value 100.000000 pushed to Polish stack.
+
+Constant registered as: 1.500000.
+
+Program word incremented, now at word: 13, command: *.
+
+Value 1.500000 pushed to Polish stack.
+
+* symbol registered.
+
+Last two numbers on the polish stack (1.500000 and 100.000000) multiplied together.
+
+Value 150.000000 pushed to Polish stack at position 0.
+
+Program word incremented, now at word: 14, command: ;.
+
+; character has been registered.
+
+Program word incremented, now at word: 15, command: FD.
+
+FD registered.
+
+Program word incremented, now at word: 16, command: C.
+
+Variable registered as: C.
+
+Program word incremented, now at word: 17, command: RT.
+
+Registered to be moving forward by variable C
+
+Drawing line, user angle registered to be between 270 and 360. Actual Value: 342.
+
+Moving forward by: 1 (Note: Will be integer as must move forward discrete steps).
+
+RT registered.
+
+Program word incremented, now at word: 18, command: 62.
+
+Constant registered as: 62.000000.
+
+Program word incremented, now at word: 19, command: }.
+
+New angle 280 (Note: Will be integer as angles measured as discrete degrees).
+
+} Character registered.
+
+Program word incremented, now at word: 20, command: }.
+
+Now on iteration 100/100 for loop 1.
+
+LOOP 1 REGISTERED TO HAVE FINISHED.
+
+} Character registered.
+
+Program word incremented, now at word: 21, command: .
+
+Screen successfully cleared.
+Your text was parsed as follows:
+
+{
+DO
+A
+FROM
+1
+TO
+100
+{
+SET
+C
+:=
+A
+1.5
+*
+;
+FD
+C
+RT
+62
+}
+}
+
